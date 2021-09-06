@@ -3,7 +3,9 @@
     <div id="nav">
       <NavBar />
     </div>
-    <router-view />
+    <b-container>
+      <router-view />
+    </b-container>
   </div>
 </template>
 
@@ -15,6 +17,5 @@
     }
   }
 </script>
-
-<style>
+<style lang="scss">
 </style>
