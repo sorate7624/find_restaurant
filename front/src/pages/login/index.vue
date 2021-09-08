@@ -1,5 +1,6 @@
 <template>
   <div class="mt-4">
+    <div>Login page</div>
     <b-form @submit.prevent="onSubmit">
       <b-form-group label="Email address:">
         <b-form-input v-model="form.email" type="email" required></b-form-input>
@@ -25,7 +26,9 @@
       }
     },
     methods: {
-      onSubmit() {}
+      onSubmit() {
+        alert('Login submit!');
+      }
     }
   }
 </script>
