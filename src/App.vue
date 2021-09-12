@@ -2,7 +2,6 @@
   <div id="app">
     <div id="nav">
       <NavBar />
-      몽지성 빡침
     </div>
     <b-container>
       <router-view />
