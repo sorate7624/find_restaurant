@@ -1,7 +1,8 @@
 <template>
   <div id="app">
     <div id="nav">
-      <NavBar /> 
+      <NavBar />
+      몽지성 빡침
     </div>
     <b-container>
       <router-view />
