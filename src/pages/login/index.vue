@@ -1,7 +1,7 @@
 <template>
   <div class="mt-4">
     <div>Login page</div>
-    <b-form @submit.prevent="onSubmit">
+    <b-form @submit.prevent="onSubmit" url="/login">
       <b-form-group label="Email address:">
         <b-form-input v-model="form.email" type="email" required></b-form-input>
       </b-form-group>
